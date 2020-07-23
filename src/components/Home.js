@@ -10,16 +10,34 @@ class Home extends Component {
         axios.get('https://jsonplaceholder.typicode.com/posts')
             .then(response => {
                 console.log(response);
+                this.setState({
+                    posts: response.data.slice(0, 10)
+                });
             });
     }
 
     render() {
+
+        const { posts } = this.state;
+        const postList = (posts.length) ? (
+            posts.map(post => {
+                return (
+                    <article className='post card' key={post.id}>
+                        <div className='card-content'>
+                            <span className='card-title'>{post.title}</span>
+                            <p>{post.body}</p>
+                        </div>
+                    </article>
+                )
+            })
+        ) : (
+                <div className='center'> No Posts Yet.</div>
+            );
+
         return (
             <div className='container'>
                 <h4 className='center'>Home</h4>
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut vulputate risus sapien, a imperdiet ante consectetur in. Nam tristique at justo vel dignissim. Sed tortor diam, faucibus fringilla lobortis vitae, egestas et massa. Nulla consequat eros eget hendrerit commodo. Integer volutpat faucibus mi ut rhoncus. Donec ultrices quis ante ut auctor. Mauris efficitur leo magna, ut faucibus libero ultrices a. Praesent dictum mauris ut ipsum tempor efficitur. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Phasellus ut faucibus urna.
-                </p>
+                {postList}
             </div>
         )
     }
