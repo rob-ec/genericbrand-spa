@@ -1,4 +1,5 @@
-To Do List
+![Generic Brand Logo](https://github.com/rob-ec/poketimes/blob/master/public/favicon.ico)
+Simple SPA
 ---
 ![License](https://img.shields.io/github/license/rob-ec/poketimes)
 ![Last Commit](https://img.shields.io/github/last-commit/rob-ec/poketimes)
