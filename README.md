@@ -1,4 +1,4 @@
-![Generic Brand Logo](https://github.com/rob-ec/poketimes/blob/master/public/favicon.ico)
+<center><img src='https://github.com/rob-ec/poketimes/blob/master/public/favicon.ico' alt='genericbrand logo'/></center>
 Simple SPA
 ---
 ![License](https://img.shields.io/github/license/rob-ec/poketimes)
