@@ -1,10 +1,15 @@
-<center><img src='https://github.com/rob-ec/poketimes/blob/master/public/favicon.ico' alt='genericbrand logo'/></center>
-Simple SPA
----
-![License](https://img.shields.io/github/license/rob-ec/poketimes)
-![Last Commit](https://img.shields.io/github/last-commit/rob-ec/poketimes)
-![Tag](https://img.shields.io/github/v/tag/rob-ec/poketimes?include_prereleases)
+<p align="center">
+  <img src='https://github.com/rob-ec/poketimes/blob/master/public/favicon.ico' alt='genericbrand logo' />
+</p>
+<h1 align="center">Simple SPA</h1>
+<h1 align="center">
+  <img src="https://img.shields.io/github/license/rob-ec/poketimes" alt="License"/>
+  <img src="https://img.shields.io/github/last-commit/rob-ec/poketimes" alt="Last Commit"/>
+  <img src="https://img.shields.io/github/v/tag/rob-ec/poketimes?include_prereleases" alt="Tag"/>
+</h1>
 
+Description [Descrição]
+---
 Web site created using `create-react-app`.<br />
 
 [Web site criado usando `create-react-app`]
