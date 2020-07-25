@@ -1,13 +1,14 @@
 import React from 'react';
-import Rainbow from '../hoc/Rainbow';
+import Card from '../hoc/Card';
 
 const About = () => {
     return (
-        <div className='container'>
+        <div className='card-content'>
             <h4 className='center'>About</h4>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut vulputate risus sapien, a imperdiet ante consectetur in. Nam tristique at justo vel dignissim. Sed tortor diam, faucibus fringilla lobortis vitae, egestas et massa. Nulla consequat eros eget hendrerit commodo. Integer volutpat faucibus mi ut rhoncus. Donec ultrices quis ante ut auctor. Mauris efficitur leo magna, ut faucibus libero ultrices a. Praesent dictum mauris ut ipsum tempor efficitur. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Phasellus ut faucibus urna.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer eget eros et purus sodales gravida. Quisque mollis purus a rhoncus mollis. Vivamus finibus nunc lacus, in volutpat dui dapibus at. Quisque nunc lorem, lacinia id mattis vehicula, egestas vitae quam. Nam ac euismod tellus. Integer volutpat magna auctor libero malesuada, sed gravida neque consequat. Quisque ut purus odio. Nullam pellentesque at nulla et maximus. Integer pretium nunc sit amet efficitur egestas. Ut in sapien sapien. Aenean ornare elit nec enim scelerisque posuere. Curabitur scelerisque posuere fermentum. </p>
+            <p> Ut quam eros, fringilla id ornare ac, ullamcorper at leo. Aenean eget neque iaculis, rutrum tellus in, mattis nulla. Curabitur in ultricies nisi. Praesent lobortis tempus egestas. Nam mi justo, viverra in dignissim in, semper et augue. Ut ac orci vel quam vehicula ornare. Sed laoreet ante sit amet mi facilisis, in rhoncus neque ullamcorper. Proin nec lectus turpis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Sed consectetur felis at arcu condimentum, vitae blandit velit euismod. Phasellus ut pellentesque mauris. Nullam a vehicula est. </p>
         </div>
     )
 } 
 
-export default Rainbow(About);
+export default Card(About);
