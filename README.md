@@ -48,3 +48,7 @@ Isso corretamente prepara o React em modo de produção e otimiza o projeto para
 The build is minified and the filenames include the hashes.<br />
 
 [O projeto é minificado e os nomes de arquivos incluem as hashs.]<br />
+
+Screenshots
+---
+![Screenshot](https://github.com/rob-ec/genericbrand-spa/blob/master/preview/screenshot.png)
