@@ -2,11 +2,11 @@
   <img src='https://github.com/rob-ec/poketimes/blob/master/public/favicon.ico' alt='genericbrand logo' />
 </p>
 <h1 align="center">Simple SPA</h1>
-<h1 align="center">
+<p align="center">
   <img src="https://img.shields.io/github/license/rob-ec/genericbrand-spa" alt="License"/>
   <img src="https://img.shields.io/github/last-commit/rob-ec/genericbrand-spa" alt="Last Commit"/>
   <img src="https://img.shields.io/github/v/tag/rob-ec/genericbrand-spa?include_prereleases" alt="Tag"/>
-</h1>
+</p>
 
 Description [Descrição]
 ---
