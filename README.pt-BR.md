@@ -15,7 +15,9 @@ Scripts Disponíveis
 ---
 No diretório do projeto, você pode executar:  
 
-> `npm start`
+```shell
+    npm start
+```
 
 Isso executa o app em modo de desenvolvimento.  
 Então abra [http://localhost:3000](http://localhost:3000) para visualizar no navegador.  
@@ -25,7 +27,9 @@ Você também vai ver qualquer lint de erros no console.
 
 Você também pode usar:
 
-> `npm run build`
+```shell
+    npm run build
+```
 
 Isso constroi o app para produção na pasta 'build'.  
 Isso corretamente prepara o React em modo de produção e otimiza o projeto para melhor performace.  
