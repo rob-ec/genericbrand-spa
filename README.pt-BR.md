@@ -7,8 +7,6 @@
   <img src="https://img.shields.io/github/v/tag/rob-ec/genericbrand-spa?include_prereleases" alt="Tag"/>
 </h1>
 
-Descrição
----
 Web site criado usando `create-react-app`  
 
 *Read this in other languages: [English](README.md), [Português do Brasil](README.pt-BR.md)*  
